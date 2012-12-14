@@ -11,8 +11,8 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends Activity {
-	Button button1,button2,button3;
-	int singleChoiceItemsIndex;
+	private Button button1,button2,button3;
+	private int singleChoiceItemsIndex;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

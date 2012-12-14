@@ -5,7 +5,7 @@ import android.app.Activity;
 import android.webkit.WebView;
 
 public class SourceCodeActivity extends Activity {
-	WebView sourceCodeView;
+	private WebView sourceCodeView;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
