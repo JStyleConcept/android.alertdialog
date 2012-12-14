@@ -11,6 +11,8 @@
         <item>Item 2</item>
         <item>Item 3</item>
     </string-array>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
     <string name="menu_sourcecode">View Source Code</string>
     <string name="menu_quitapp">Quit App</string>
     <string name="title_activity_source_code">Source Code</string>

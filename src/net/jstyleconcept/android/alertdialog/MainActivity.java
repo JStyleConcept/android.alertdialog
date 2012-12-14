@@ -29,7 +29,7 @@ public class MainActivity extends Activity {
 				new AlertDialog.Builder(MainActivity.this)
 					.setTitle("Alert Dialog 1")
 					.setMessage("This is Alert Dialog 1")
-					.setNeutralButton("OK",new DialogInterface.OnClickListener() {
+					.setNeutralButton(getResources().getString(R.string.ok),new DialogInterface.OnClickListener() {
 
 						@Override
 						public void onClick(DialogInterface dialog,int which) {
@@ -51,7 +51,7 @@ public class MainActivity extends Activity {
 							String[] itemArray=getResources().getStringArray(R.array.dialogstrarry);
 							new AlertDialog.Builder(MainActivity.this)
 								.setMessage(itemArray[which])
-								.setNeutralButton("OK",new DialogInterface.OnClickListener() {
+								.setNeutralButton(getResources().getString(R.string.ok),new DialogInterface.OnClickListener() {
 
 									@Override
 									public void onClick(DialogInterface dialog,int which) {
@@ -77,20 +77,27 @@ public class MainActivity extends Activity {
 							singleChoiceItemsIndex=which;
 						}
 					})
-					.setNegativeButton("OK",new DialogInterface.OnClickListener() {
+					.setPositiveButton(getResources().getString(R.string.ok),new DialogInterface.OnClickListener() {
 
 						@Override
 						public void onClick(DialogInterface dialog,int which) {
 							String[] itemArray=getResources().getStringArray(R.array.dialogstrarry);
 							new AlertDialog.Builder(MainActivity.this)
 								.setMessage(itemArray[singleChoiceItemsIndex])
-								.setNeutralButton("OK",new DialogInterface.OnClickListener() {
+								.setPositiveButton(getResources().getString(R.string.ok),new DialogInterface.OnClickListener() {
 									
 									@Override
 									public void onClick(DialogInterface dialog,int which) {
 										
 									}
 								}).show();
+						}
+					})
+					.setNegativeButton(getResources().getString(R.string.cancel),new DialogInterface.OnClickListener() {
+									
+						@Override
+						public void onClick(DialogInterface dialog,int which) {
+							
 						}
 					}).show();
 			}
