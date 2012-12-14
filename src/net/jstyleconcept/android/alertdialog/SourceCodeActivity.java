@@ -10,7 +10,7 @@ public class SourceCodeActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_source_code);
+		setContentView(R.layout.layout_sourcecodeactivity);
 		sourceCodeView=(WebView)findViewById(R.id.webView1);
 		sourceCodeView.getSettings().setBuiltInZoomControls(true);
 		sourceCodeView.loadUrl("file:///android_asset/sourcecode.html");

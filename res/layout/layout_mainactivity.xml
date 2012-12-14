@@ -26,13 +26,13 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:text="@string/dialog2"
         android:textAlignment="center"
         android:textAppearance="?android:attr/textAppearanceLarge" />
-    
+
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
