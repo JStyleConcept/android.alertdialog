@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Alert Dialog</string>
+    <string name="clickme">Click Me</string>
+    <string name="dialog1">Dialog 1</string>
+    <string name="dialog2">Dialog 2</string>
+	<string name="dialog3">Dialog 3</string>
+	<string-array name="dialogstrarry">
+		<item>Item 1</item>
+		<item>Item 2</item>
+		<item>Item 3</item>
+    </string-array>
+    <string name="menu_sourcecode">View Source Code</string>
+    <string name="menu_quitapp">Quit App</string>
+    <string name="title_activity_source_code">Source Code</string>
+
+</resources>
